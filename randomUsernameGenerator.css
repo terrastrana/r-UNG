@@ -1,0 +1,54 @@
+     body {
+        background: #ffffff;
+        color: #000000;
+        font: 40px "Century Gothic", "Times New Roman", Times, serif;
+        padding-top: 25px;
+        text-align: center;
+        width:500px;
+        margin: 0 auto;
+     }
+	 
+	 
+     boxy {
+        background: #ffff99;
+        font: 40px "Century Gothic", "Times New Roman", Times, serif;
+        text-align: center;
+        width:250px;
+		height:250px;
+     }
+
+     h1, h2, h3, h4 {
+        font-family: "Century Gothic";
+     }
+
+     h1 {
+        font-size: 40px;
+        line-height: 40px;
+     }
+
+     h2 {
+        font-size: 31px;
+        line-height: 37px; 
+     }
+
+     .h3 {
+        font-size: 21px;
+        line-height: 27px; 
+		font-weight:normal;
+     }
+	 
+	  h4 {
+        font-size: 15px;
+        line-height: 11px; 
+		font-weight:normal;
+     }
+
+     a:link, a:visited {
+        color: #222222;
+        font-weight: bold;
+        text-decoration: none;
+     }
+     
+     a:hover, a:active {
+        text-decoration: underline;
+     }

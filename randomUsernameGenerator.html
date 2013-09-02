@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Random Username Generator</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+	<link rel = "stylesheet" href = "randomUsernameGenerator.css" />
+<body>
+<div id="boxy">
+<h4>Hey guys, it's the...</h4>
+<h1><strong>Random Username Generator!!!</strong></h1>
+<script type="text/javascript">// <![CDATA[
+function randomUsername() 
+{ 
+
+var dot = ".";
+var first = ["happy", "sad", "amateur", "crazy", "silly", "funny", "average", "intrepid", "legendary", "infamous", "rusty", "dangerous", "grievous","anonymous", "shifty", "duplicitous", "sneaky", "loathsome", "luxurious", "quarrelsome", "cantankerous", "hungry", "angry", "confused"];
+var second = ["nature", "theater", "space", "music", "movie", "book", "nature", "code", "food", "adventure", "cosmic", "swashbuckling", "athletic","sailing","ocean","digital"];
+var third = ["lover","geek", "dude", "nerd", "connoissuer", "critic", "expert", "advisor", "warrior","explorer"];
+
+var rando1 = Math.floor((Math.random()*23)+1); 
+var rando2 = Math.floor((Math.random()*15)+1); 
+var rando3 = Math.floor((Math.random()*9)+1); 
+
+var newFirst = first[rando1];
+var newSecond = second[rando2];
+var newThird = third[rando3];
+
+
+document.getElementById('boxy').className = 'h3';
+document.write
+("Your new name is: " + newFirst + dot + newSecond + dot + newThird + dot);
+
+
+}
+
+randomUsername();
+// ]]></script>
+</div>
+<h2>Hit 'refresh' to try again.</h2>
+</body>
+</html>
